@@ -1,0 +1,26 @@
+<!-- Sign Up Start -->
+<div class="container-fluid">
+    <div class="row h-100 justify-content-center" style="min-height: 100vh;">
+        <div class="">
+            <div class="bg-light rounded">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                    <h6>Nouveau compte</h6>
+                </div>
+                <form method="post" action="prg/compte/ajouter.php">
+                    <div class="form-floating mb-3">
+                        <select class="form-control" name="type" id="type">
+                            <option value="0">Choisir un type de compte</option>
+                            <option value="1">Compte paiement</option>
+                            <option value="2">Compte carte physique</option>
+                            <option value="3">Compte carte virtuelle</option>
+                        </select>
+                        <label for="type">Type</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Ajouter</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- add End -->
